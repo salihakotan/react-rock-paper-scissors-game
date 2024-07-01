@@ -11,3 +11,76 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.header{
+  padding: 20px;
+  background-color: rgb(164, 29, 103);
+  color: white
+}
+
+.footer{
+  padding: 10px;
+  background-color: #333;
+  color:white;
+  text-align: center;
+}
+
+.gameContainer{
+  border-radius: 10px;
+  background-color: rgb(255, 207, 238);
+  border:2px solid #cbcbcb;
+  box-shadow: 5px 5px 5px #c4c4c4;
+  width: 700px;
+  height: 500px;
+  padding: 20px;
+  margin: 50px auto;
+}
+
+.scoreText{
+  font-weight: bold;
+  font-size: 20px;
+  text-align: right;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.optionButtons{
+  border-radius: 100px;
+  border:4px solid blue;
+  width: 150px;
+  height: 150px;
+  background-color: rgb(151, 151, 255);
+  color: white;
+  font-size: 22px;
+  margin: 20px;
+}
+
+.optionButtons:active{
+  background-color: red;
+}
+
+.optionButtons:disabled{
+  border-color: gray;
+}
+
+.gameHeaderBox{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.optionImg{
+
+}
+
+.tourListItem{
+  
+}
+
+.selectedOptionText{
+  background-color: #333;
+  color:white;
+  padding: 10px;
+  border-radius: 10px;
+}
